@@ -104,11 +104,6 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 					showName: true,
 				},
 				{
-					name: "Email",
-					icon: "fa7-solid:envelope",
-					url: "mailto:1602833550@qq.com",
-				},
-				{
 					name: "QQ",
 					icon: "fa7-brands:qq",
 					url: "https://qm.qq.com/q/5Kz8Hpesf0",
@@ -117,6 +112,11 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 					name: "Telegram",
 					icon: "fa7-brands:telegram",
 					url: "https://t.me/xiaoyu_fans",
+				},
+				{
+					name: "Email",
+					icon: "fa7-solid:envelope",
+					url: "mailto:1602833550@qq.com",
 				},
 				{
 					name: "Sponsor",

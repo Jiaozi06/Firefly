@@ -28,12 +28,6 @@ export const profileConfig: ProfileConfig = {
 			showName: false,
 		},
 		{
-			name: "Email",
-			icon: "fa7-solid:envelope",
-			url: "mailto:1602833550@qq.com",
-			showName: false,
-		},
-		{
 			name: "QQ",
 			icon: "fa7-brands:qq",
 			url: "https://qm.qq.com/q/5Kz8Hpesf0",
@@ -43,6 +37,12 @@ export const profileConfig: ProfileConfig = {
 			name: "Telegram",
 			icon: "fa7-brands:telegram",
 			url: "https://t.me/xiaoyu_fans",
+			showName: false,
+		},
+		{
+			name: "Email",
+			icon: "fa7-solid:envelope",
+			url: "mailto:1602833550@qq.com",
 			showName: false,
 		},
 		{

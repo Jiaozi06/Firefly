@@ -110,12 +110,6 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 				icon: "fa7-brands:github",
 			},
 			{
-				name: "邮箱",
-				url: "mailto:1602833550@qq.com",
-				external: true,
-				icon: "fa7-solid:envelope",
-			},
-			{
 				name: "QQ",
 				url: "https://qm.qq.com/q/5Kz8Hpesf0",
 				external: true,
@@ -126,6 +120,12 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 				url: "https://t.me/xiaoyu_fans",
 				external: true,
 				icon: "fa7-brands:telegram",
+			},
+			{
+				name: "邮箱",
+				url: "mailto:1602833550@qq.com",
+				external: true,
+				icon: "fa7-solid:envelope",
 			},
 		],
 	});
