@@ -40,12 +40,6 @@ export const profileConfig: ProfileConfig = {
 			showName: false,
 		},
 		{
-			name: "Email",
-			icon: "fa7-solid:envelope",
-			url: "mailto:1602833550@qq.com",
-			showName: false,
-		},
-		{
 			name: "RSS",
 			icon: "fa7-solid:rss",
 			url: "/rss/",
@@ -55,6 +49,12 @@ export const profileConfig: ProfileConfig = {
 			name: "Atom",
 			icon: "fa7-solid:atom",
 			url: "/atom/",
+			showName: false,
+		},
+		{
+			name: "Email",
+			icon: "fa7-solid:envelope",
+			url: "mailto:1602833550@qq.com",
 			showName: false,
 		},
 	],

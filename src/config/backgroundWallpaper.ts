@@ -114,11 +114,6 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 					url: "https://t.me/xiaoyu_fans",
 				},
 				{
-					name: "Email",
-					icon: "fa7-solid:envelope",
-					url: "mailto:1602833550@qq.com",
-				},
-				{
 					name: "Sponsor",
 					icon: "material-symbols:favorite",
 					url: "/sponsor/",
@@ -127,6 +122,11 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 					name: "RSS",
 					icon: "fa7-solid:rss",
 					url: "/rss/",
+				},
+				{
+					name: "Email",
+					icon: "fa7-solid:envelope",
+					url: "mailto:1602833550@qq.com",
 				},
 			],
 		},
