@@ -32,6 +32,7 @@ const localPlaylist =
 const managerConfigStr = JSON.stringify({
 	siteTitle: siteConfig.title,
 	mode: config.mode,
+	autoplay: config.autoplay ?? false,
 	meting: config.meting,
 	localPlaylist: localPlaylist,
 	volume: config.volume ?? 0.7,
@@ -52,6 +53,7 @@ const managerConfigStr = JSON.stringify({
 		error: i18n(I18nKey.musicError),
 		play: i18n(I18nKey.musicPlay),
 		pause: i18n(I18nKey.musicPause),
+		autoplayBlocked: i18n(I18nKey.musicAutoplayBlocked),
 		progress: i18n(I18nKey.musicProgress),
 		noCover: i18n(I18nKey.musicNoCover),
 	},
@@ -100,9 +102,9 @@ const managerConfigStr = JSON.stringify({
     var audio = document.createElement('audio');
     audio.crossOrigin = 'anonymous';
     audio.style.display = 'none';
-    audio.preload = 'none'; // 阻止浏览器预加载和自动恢复播放
+    audio.preload = 'none'; // 等待播放器初始化后再加载音频
     document.body.appendChild(audio);
-    audio.pause(); // 确保不自动播放
+    audio.pause(); // 初始化时保持暂停，由播放器配置决定是否尝试自动播放
 
     // ── State ────────────────────────────────────────────────
     var loadVersion = 0; // incremented on each loadTrack to discard stale play() results
@@ -357,6 +359,7 @@ const managerConfigStr = JSON.stringify({
                 if (e.name === 'AbortError') return; // interrupted by new load
                 console.warn('Autoplay blocked:', e);
                 emitPlayState(false, true);
+                if (e.name === 'NotAllowedError') emit('fm:autoplay-blocked');
             });
         } else {
             emitPlayState(false, true);
@@ -599,7 +602,7 @@ const managerConfigStr = JSON.stringify({
                     isMuted: state.isMuted
                 });
 
-                loadTrack(startIndex, false);
+                loadTrack(startIndex, config.autoplay === true);
                 setupMediaSession();
             } else {
                 state.initialized = true;

@@ -65,6 +65,7 @@ export const en: Translation = {
 	[Key.musicError]: "Player Error",
 	[Key.musicPlay]: "Play",
 	[Key.musicPause]: "Pause",
+	[Key.musicAutoplayBlocked]: "Autoplay blocked by browser; click to play",
 	[Key.musicProgress]: "Playback Progress",
 	[Key.musicCover]: "Cover",
 	[Key.musicNoCover]: "No cover available",

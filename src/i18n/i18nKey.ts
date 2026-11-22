@@ -88,6 +88,7 @@ enum I18nKey {
 	musicError = "musicError",
 	musicPlay = "musicPlay",
 	musicPause = "musicPause",
+	musicAutoplayBlocked = "musicAutoplayBlocked",
 	musicProgress = "musicProgress",
 	musicCover = "musicCover",
 	musicNoCover = "musicNoCover",

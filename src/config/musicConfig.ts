@@ -20,6 +20,9 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 	// 是否显启用歌词
 	showLyrics: false,
 
+	// 页面载入时尝试自动播放；若被浏览器拦截，访客可点击播放按钮
+	autoplay: true,
+
 	// Meting API 配置
 	meting: {
 		// Meting API 地址

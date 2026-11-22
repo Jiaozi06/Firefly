@@ -65,6 +65,7 @@ export const zh_TW: Translation = {
 	[Key.musicError]: "播放器錯誤",
 	[Key.musicPlay]: "播放",
 	[Key.musicPause]: "暫停",
+	[Key.musicAutoplayBlocked]: "自動播放遭瀏覽器攔截，點擊播放",
 	[Key.musicProgress]: "播放進度",
 	[Key.musicCover]: "封面",
 	[Key.musicNoCover]: "暫無封面",

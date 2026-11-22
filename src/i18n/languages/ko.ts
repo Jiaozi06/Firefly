@@ -65,6 +65,7 @@ export const ko: Translation = {
 	[Key.musicError]: "플레이어 오류",
 	[Key.musicPlay]: "재생",
 	[Key.musicPause]: "일시정지",
+	[Key.musicAutoplayBlocked]: "브라우저가 자동 재생을 차단했습니다. 클릭하여 재생",
 	[Key.musicProgress]: "재생 진행률",
 	[Key.musicCover]: "커버",
 	[Key.musicNoCover]: "커버 이미지 없음",
