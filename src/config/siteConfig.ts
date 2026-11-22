@@ -42,7 +42,7 @@ const pages = resolvePageToggles({
 
 export const siteConfig: SiteConfig = {
 	// 站点标题
-	title: "小郁的博客",
+	title: "饺子的博客",
 
 	// 站点副标题
 	subtitle: "记录日常与想法",
@@ -51,10 +51,10 @@ export const siteConfig: SiteConfig = {
 	site_url: "https://blog.jiaozi.live",
 
 	// 站点描述
-	description: "小郁的个人博客，记录日常、想法与感兴趣的内容。",
+	description: "饺子的个人博客，记录日常、想法与感兴趣的内容。",
 
 	// 站点关键词
-	keywords: ["小郁", "个人博客", "生活记录", "技术分享", "Astro", "Firefly"],
+	keywords: ["饺子", "个人博客", "生活记录", "技术分享", "Astro", "Firefly"],
 
 	// 主题色
 	themeColor: {
@@ -108,7 +108,7 @@ export const siteConfig: SiteConfig = {
 			alt: "🍀",
 		},
 		// 导航栏标题
-		title: "小郁的博客",
+		title: "饺子的博客",
 		// 全宽导航栏，导航栏是否占满屏幕宽度
 		widthFull: false,
 		// 导航菜单对齐方式，left：左对齐，center：居中

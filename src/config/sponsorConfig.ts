@@ -26,7 +26,7 @@ export const sponsorConfig: SponsorConfig = {
 			name: "支付宝",
 			icon: "fa7-brands:alipay",
 			// 收款码图片路径（需要放在 public 目录下）
-			qrCode: "/assets/images/sponsor/alipay-xiaoyu-20261122.png",
+			qrCode: "/assets/images/sponsor/alipay-jiaozi-20261122.png",
 			link: "",
 			description: "使用 支付宝 扫码打赏",
 			enabled: true,
@@ -34,7 +34,7 @@ export const sponsorConfig: SponsorConfig = {
 		{
 			name: "微信",
 			icon: "fa7-brands:weixin",
-			qrCode: "/assets/images/sponsor/wepay-xiaoyu-20261122.png",
+			qrCode: "/assets/images/sponsor/wepay-jiaozi-20261122.png",
 			link: "",
 			description: "使用 微信 扫码打赏",
 			enabled: true,
