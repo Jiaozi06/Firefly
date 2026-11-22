@@ -4,7 +4,7 @@ published: 2026-11-22
 description: 小郁的博客正式上线，记录生活、技术与日常灵感。
 tags: [随笔, Hello World]
 category: 随笔
-author: xiaoyu 小郁
+author: 小郁
 slug: hello-world
 ---
 

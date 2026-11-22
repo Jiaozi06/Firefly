@@ -9,10 +9,10 @@ export const profileConfig: ProfileConfig = {
 	avatar: "assets/images/avatar.avif",
 
 	// 名字
-	name: "xiaoyu 小郁",
+	name: "小郁",
 
 	// 个人签名
-	bio: "Hello, I'm XiaYe.",
+	bio: "你好，我是小郁。",
 
 	// 链接配置
 	// 已经预装的图标集：fa7-brands，fa7-regular，fa7-solid，material-symbols，simple-icons
