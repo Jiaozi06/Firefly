@@ -115,6 +115,18 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 				external: true,
 				icon: "fa7-solid:envelope",
 			},
+			{
+				name: "QQ",
+				url: "https://qm.qq.com/q/5Kz8Hpesf0",
+				external: true,
+				icon: "fa7-brands:qq",
+			},
+			{
+				name: "Telegram",
+				url: "https://t.me/xiaoyu_fans",
+				external: true,
+				icon: "fa7-brands:telegram",
+			},
 		],
 	});
 

@@ -34,6 +34,18 @@ export const profileConfig: ProfileConfig = {
 			showName: false,
 		},
 		{
+			name: "QQ",
+			icon: "fa7-brands:qq",
+			url: "https://qm.qq.com/q/5Kz8Hpesf0",
+			showName: false,
+		},
+		{
+			name: "Telegram",
+			icon: "fa7-brands:telegram",
+			url: "https://t.me/xiaoyu_fans",
+			showName: false,
+		},
+		{
 			name: "RSS",
 			icon: "fa7-solid:rss",
 			url: "/rss/",

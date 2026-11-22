@@ -109,6 +109,16 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 					url: "mailto:1602833550@qq.com",
 				},
 				{
+					name: "QQ",
+					icon: "fa7-brands:qq",
+					url: "https://qm.qq.com/q/5Kz8Hpesf0",
+				},
+				{
+					name: "Telegram",
+					icon: "fa7-brands:telegram",
+					url: "https://t.me/xiaoyu_fans",
+				},
+				{
 					name: "Sponsor",
 					icon: "material-symbols:favorite",
 					url: "/sponsor/",
